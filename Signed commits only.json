@@ -1,0 +1,22 @@
+{
+  "id": 5250533,
+  "name": "Signed commits only",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "DubskySteam/NoiseNinja",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "~ALL"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "required_signatures"
+    }
+  ],
+  "bypass_actors": []
+}
